@@ -1,4 +1,6 @@
+
 ## Creates a special "matrix" object that can cache its inverse.
+##The function needs to be able to cache the inverse when called
 
 
 
@@ -30,7 +32,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
+## setinverse and getinverse and not be interchanged
 
 
 
@@ -61,3 +63,5 @@ cacheSolve <- function(x, ...) {
         i
 
 }
+
+##make sure to test functions from previous function
